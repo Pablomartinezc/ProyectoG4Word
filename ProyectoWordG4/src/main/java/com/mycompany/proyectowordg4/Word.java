@@ -75,6 +75,7 @@ public class Word extends javax.swing.JFrame {
         jButton36 = new javax.swing.JButton();
         jButton37 = new javax.swing.JButton();
         jToolBar1 = new javax.swing.JToolBar();
+        jLabel6 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         jLabel1 = new javax.swing.JLabel();
@@ -103,7 +104,7 @@ public class Word extends javax.swing.JFrame {
         jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel3.setLayout(new java.awt.GridBagLayout());
 
-        jButton4.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\copia.png")); // NOI18N
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/copia.png"))); // NOI18N
         jButton4.setText("Copiar");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -113,7 +114,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel3.add(jButton4, gridBagConstraints);
 
-        jButton6.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\cepillo-de-pintura.png")); // NOI18N
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cepillo-de-pintura.png"))); // NOI18N
         jButton6.setText("Formato");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -123,7 +124,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel3.add(jButton6, gridBagConstraints);
 
-        jButton7.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\pegar.png")); // NOI18N
+        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pegar.png"))); // NOI18N
         jButton7.setText("Pegar");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -134,7 +135,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel3.add(jButton7, gridBagConstraints);
 
-        jButton5.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\cortar(1).png")); // NOI18N
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cortar(1).png"))); // NOI18N
         jButton5.setText("Cortar");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -157,7 +158,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel4.add(jComboBox1, gridBagConstraints);
 
-        jButton8.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\negrita.png")); // NOI18N
+        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/negrita.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 1;
@@ -166,7 +167,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel4.add(jButton8, gridBagConstraints);
 
-        jButton9.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\texto-en-cursiva.png")); // NOI18N
+        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/texto-en-cursiva.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 1;
@@ -175,7 +176,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel4.add(jButton9, gridBagConstraints);
 
-        jButton10.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\subrayar.png")); // NOI18N
+        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/subrayar.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 1;
@@ -184,7 +185,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel4.add(jButton10, gridBagConstraints);
 
-        jButton11.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\simbolo-de-interfaz-de-opcion-de-texto-tachado.png")); // NOI18N
+        jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/simbolo-de-interfaz-de-opcion-de-texto-tachado.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 1;
@@ -193,14 +194,14 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel4.add(jButton11, gridBagConstraints);
 
-        jButton12.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\subindice.png")); // NOI18N
+        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/subindice.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 4;
         gridBagConstraints.gridy = 1;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
         jPanel4.add(jButton12, gridBagConstraints);
 
-        jButton13.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\sobrescrito.png")); // NOI18N
+        jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sobrescrito.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
         gridBagConstraints.gridy = 1;
@@ -209,7 +210,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel4.add(jButton13, gridBagConstraints);
 
-        jButton15.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\text.png")); // NOI18N
+        jButton15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/text.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 6;
         gridBagConstraints.gridy = 1;
@@ -218,7 +219,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel4.add(jButton15, gridBagConstraints);
 
-        jButton16.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\text-format.png")); // NOI18N
+        jButton16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/text-format.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 7;
         gridBagConstraints.gridy = 1;
@@ -237,7 +238,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel4.add(jComboBox2, gridBagConstraints);
 
-        jButton18.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\format-size.png")); // NOI18N
+        jButton18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/format-size.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 4;
         gridBagConstraints.gridy = 0;
@@ -246,7 +247,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel4.add(jButton18, gridBagConstraints);
 
-        jButton19.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\decrease-font-size.png")); // NOI18N
+        jButton19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/decrease-font-size.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
         gridBagConstraints.gridy = 0;
@@ -255,7 +256,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel4.add(jButton19, gridBagConstraints);
 
-        jButton20.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\text-font.png")); // NOI18N
+        jButton20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/text-font.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 6;
         gridBagConstraints.gridy = 0;
@@ -264,7 +265,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel4.add(jButton20, gridBagConstraints);
 
-        jButton21.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\paragraph.png")); // NOI18N
+        jButton21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/paragraph.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 7;
         gridBagConstraints.gridy = 0;
@@ -276,7 +277,7 @@ public class Word extends javax.swing.JFrame {
         jPanel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel5.setLayout(new java.awt.GridBagLayout());
 
-        jButton1.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\lista.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lista-de-vinetas.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
@@ -285,7 +286,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel5.add(jButton1, gridBagConstraints);
 
-        jButton2.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\lista-de-vinetas.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lista.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 0;
@@ -294,7 +295,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel5.add(jButton2, gridBagConstraints);
 
-        jButton3.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\lista(1).png")); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lista(1).png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 0;
@@ -303,7 +304,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel5.add(jButton3, gridBagConstraints);
 
-        jButton24.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\sangria-izquierda.png")); // NOI18N
+        jButton24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sangria-izquierda.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 0;
@@ -312,7 +313,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel5.add(jButton24, gridBagConstraints);
 
-        jButton25.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\sangria-derecha.png")); // NOI18N
+        jButton25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sangria-derecha.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 4;
         gridBagConstraints.gridy = 0;
@@ -321,7 +322,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel5.add(jButton25, gridBagConstraints);
 
-        jButton26.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\paragraph(1).png")); // NOI18N
+        jButton26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/paragraph(1).png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
         gridBagConstraints.gridy = 0;
@@ -330,7 +331,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel5.add(jButton26, gridBagConstraints);
 
-        jButton28.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\text-alignment.png")); // NOI18N
+        jButton28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/text-alignment.png"))); // NOI18N
         buttonGroup1.add(jButton28);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -340,7 +341,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel5.add(jButton28, gridBagConstraints);
 
-        jButton29.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\text-alignment(2).png")); // NOI18N
+        jButton29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/text-alignment(2).png"))); // NOI18N
         buttonGroup1.add(jButton29);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -350,7 +351,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel5.add(jButton29, gridBagConstraints);
 
-        jButton30.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\text-alignment(1).png")); // NOI18N
+        jButton30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/text-alignment(1).png"))); // NOI18N
         buttonGroup1.add(jButton30);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
@@ -360,7 +361,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel5.add(jButton30, gridBagConstraints);
 
-        jButton31.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\alignment.png")); // NOI18N
+        jButton31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/alignment.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 1;
@@ -369,7 +370,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel5.add(jButton31, gridBagConstraints);
 
-        jButton32.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\espaciado-de-texto.png")); // NOI18N
+        jButton32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/espaciado-de-texto.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 4;
         gridBagConstraints.gridy = 1;
@@ -378,7 +379,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel5.add(jButton32, gridBagConstraints);
 
-        jButton33.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\cubo-de-pintura.png")); // NOI18N
+        jButton33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cubo-de-pintura.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
         gridBagConstraints.gridy = 1;
@@ -410,7 +411,7 @@ public class Word extends javax.swing.JFrame {
         jPanel7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel7.setLayout(new java.awt.GridBagLayout());
 
-        jButton35.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\lupa.png")); // NOI18N
+        jButton35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lupa.png"))); // NOI18N
         jButton35.setText("Buscar");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -420,7 +421,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel7.add(jButton35, gridBagConstraints);
 
-        jButton36.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\encontrar.png")); // NOI18N
+        jButton36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/encontrar.png"))); // NOI18N
         jButton36.setText("Reemplazar");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -430,7 +431,7 @@ public class Word extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         jPanel7.add(jButton36, gridBagConstraints);
 
-        jButton37.setIcon(new javax.swing.ImageIcon("D:\\Descargas\\taconeador.png")); // NOI18N
+        jButton37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/taconeador.png"))); // NOI18N
         jButton37.setText("Seleccionar");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -441,6 +442,9 @@ public class Word extends javax.swing.JFrame {
         jPanel7.add(jButton37, gridBagConstraints);
 
         jToolBar1.setRollover(true);
+
+        jLabel6.setText("Pagina 1 de 1");
+        jToolBar1.add(jLabel6);
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
@@ -455,6 +459,8 @@ public class Word extends javax.swing.JFrame {
         jLabel4.setText("Estilos");
 
         jLabel5.setText("Edicion");
+
+        jSlider1.setMaximum(500);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -607,6 +613,7 @@ public class Word extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JList<String> jList1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;

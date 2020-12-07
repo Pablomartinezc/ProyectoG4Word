@@ -162,7 +162,7 @@
                 <Component class="javax.swing.JButton" name="jButton4">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\copia.png"/>
+                      <Image iconType="3" name="/copia.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Copiar"/>
                   </Properties>
@@ -175,7 +175,7 @@
                 <Component class="javax.swing.JButton" name="jButton6">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\cepillo-de-pintura.png"/>
+                      <Image iconType="3" name="/cepillo-de-pintura.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Formato"/>
                   </Properties>
@@ -188,7 +188,7 @@
                 <Component class="javax.swing.JButton" name="jButton7">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\pegar.png"/>
+                      <Image iconType="3" name="/pegar.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Pegar"/>
                   </Properties>
@@ -201,7 +201,7 @@
                 <Component class="javax.swing.JButton" name="jButton5">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\cortar(1).png"/>
+                      <Image iconType="3" name="/cortar(1).png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Cortar"/>
                   </Properties>
@@ -263,7 +263,7 @@
                 <Component class="javax.swing.JButton" name="jButton8">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\negrita.png"/>
+                      <Image iconType="3" name="/negrita.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -275,7 +275,7 @@
                 <Component class="javax.swing.JButton" name="jButton9">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\texto-en-cursiva.png"/>
+                      <Image iconType="3" name="/texto-en-cursiva.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -287,7 +287,7 @@
                 <Component class="javax.swing.JButton" name="jButton10">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\subrayar.png"/>
+                      <Image iconType="3" name="/subrayar.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -299,7 +299,7 @@
                 <Component class="javax.swing.JButton" name="jButton11">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\simbolo-de-interfaz-de-opcion-de-texto-tachado.png"/>
+                      <Image iconType="3" name="/simbolo-de-interfaz-de-opcion-de-texto-tachado.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -311,7 +311,7 @@
                 <Component class="javax.swing.JButton" name="jButton12">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\subindice.png"/>
+                      <Image iconType="3" name="/subindice.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -323,7 +323,7 @@
                 <Component class="javax.swing.JButton" name="jButton13">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\sobrescrito.png"/>
+                      <Image iconType="3" name="/sobrescrito.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -335,7 +335,7 @@
                 <Component class="javax.swing.JButton" name="jButton15">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\text.png"/>
+                      <Image iconType="3" name="/text.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -347,7 +347,7 @@
                 <Component class="javax.swing.JButton" name="jButton16">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\text-format.png"/>
+                      <Image iconType="3" name="/text-format.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -391,7 +391,7 @@
                 <Component class="javax.swing.JButton" name="jButton18">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\format-size.png"/>
+                      <Image iconType="3" name="/format-size.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -403,7 +403,7 @@
                 <Component class="javax.swing.JButton" name="jButton19">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\decrease-font-size.png"/>
+                      <Image iconType="3" name="/decrease-font-size.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -415,7 +415,7 @@
                 <Component class="javax.swing.JButton" name="jButton20">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\text-font.png"/>
+                      <Image iconType="3" name="/text-font.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -427,7 +427,7 @@
                 <Component class="javax.swing.JButton" name="jButton21">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\paragraph.png"/>
+                      <Image iconType="3" name="/paragraph.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -452,7 +452,7 @@
                 <Component class="javax.swing.JButton" name="jButton1">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\lista.png"/>
+                      <Image iconType="3" name="/lista-de-vinetas.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -464,7 +464,7 @@
                 <Component class="javax.swing.JButton" name="jButton2">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\lista-de-vinetas.png"/>
+                      <Image iconType="3" name="/lista.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -476,7 +476,7 @@
                 <Component class="javax.swing.JButton" name="jButton3">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\lista(1).png"/>
+                      <Image iconType="3" name="/lista(1).png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -488,7 +488,7 @@
                 <Component class="javax.swing.JButton" name="jButton24">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\sangria-izquierda.png"/>
+                      <Image iconType="3" name="/sangria-izquierda.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -500,7 +500,7 @@
                 <Component class="javax.swing.JButton" name="jButton25">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\sangria-derecha.png"/>
+                      <Image iconType="3" name="/sangria-derecha.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -512,7 +512,7 @@
                 <Component class="javax.swing.JButton" name="jButton26">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\paragraph(1).png"/>
+                      <Image iconType="3" name="/paragraph(1).png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -524,7 +524,7 @@
                 <Component class="javax.swing.JButton" name="jButton28">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\text-alignment.png"/>
+                      <Image iconType="3" name="/text-alignment.png"/>
                     </Property>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                       <ComponentRef name="buttonGroup1"/>
@@ -539,7 +539,7 @@
                 <Component class="javax.swing.JButton" name="jButton29">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\text-alignment(2).png"/>
+                      <Image iconType="3" name="/text-alignment(2).png"/>
                     </Property>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                       <ComponentRef name="buttonGroup1"/>
@@ -554,7 +554,7 @@
                 <Component class="javax.swing.JButton" name="jButton30">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\text-alignment(1).png"/>
+                      <Image iconType="3" name="/text-alignment(1).png"/>
                     </Property>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                       <ComponentRef name="buttonGroup1"/>
@@ -569,7 +569,7 @@
                 <Component class="javax.swing.JButton" name="jButton31">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\alignment.png"/>
+                      <Image iconType="3" name="/alignment.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -581,7 +581,7 @@
                 <Component class="javax.swing.JButton" name="jButton32">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\espaciado-de-texto.png"/>
+                      <Image iconType="3" name="/espaciado-de-texto.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -593,7 +593,7 @@
                 <Component class="javax.swing.JButton" name="jButton33">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\cubo-de-pintura.png"/>
+                      <Image iconType="3" name="/cubo-de-pintura.png"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -679,7 +679,7 @@
                 <Component class="javax.swing.JButton" name="jButton35">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\lupa.png"/>
+                      <Image iconType="3" name="/lupa.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Buscar"/>
                   </Properties>
@@ -692,7 +692,7 @@
                 <Component class="javax.swing.JButton" name="jButton36">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\encontrar.png"/>
+                      <Image iconType="3" name="/encontrar.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Reemplazar"/>
                   </Properties>
@@ -705,7 +705,7 @@
                 <Component class="javax.swing.JButton" name="jButton37">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="D:\Descargas\taconeador.png"/>
+                      <Image iconType="3" name="/taconeador.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Seleccionar"/>
                   </Properties>
@@ -723,6 +723,13 @@
               </Properties>
 
               <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Pagina 1 de 1"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
             </Container>
             <Container class="javax.swing.JScrollPane" name="jScrollPane1">
               <AuxValues>
@@ -765,6 +772,9 @@
               </Properties>
             </Component>
             <Component class="javax.swing.JSlider" name="jSlider1">
+              <Properties>
+                <Property name="maximum" type="int" value="500"/>
+              </Properties>
             </Component>
           </SubComponents>
         </Container>
