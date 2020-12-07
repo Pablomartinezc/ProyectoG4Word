@@ -31,6 +31,7 @@ public class Word extends javax.swing.JFrame {
         java.awt.GridBagConstraints gridBagConstraints;
 
         buttonGroup1 = new javax.swing.ButtonGroup();
+        buttonGroup2 = new javax.swing.ButtonGroup();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
@@ -85,8 +86,17 @@ public class Word extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jSlider1 = new javax.swing.JSlider();
         jTabbedPane2 = new javax.swing.JTabbedPane();
+        jTabbedPane3 = new javax.swing.JTabbedPane();
+        jTabbedPane4 = new javax.swing.JTabbedPane();
+        jTabbedPane5 = new javax.swing.JTabbedPane();
+        jTabbedPane6 = new javax.swing.JTabbedPane();
+        jTabbedPane7 = new javax.swing.JTabbedPane();
+        jTabbedPane8 = new javax.swing.JTabbedPane();
+        jTabbedPane9 = new javax.swing.JTabbedPane();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jTabbedPane1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -99,7 +109,7 @@ public class Word extends javax.swing.JFrame {
             .addGap(0, 584, Short.MAX_VALUE)
         );
 
-        jTabbedPane1.addTab("tab1", jPanel1);
+        jTabbedPane1.addTab("Archivo", jPanel1);
 
         jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel3.setLayout(new java.awt.GridBagLayout());
@@ -159,6 +169,11 @@ public class Word extends javax.swing.JFrame {
         jPanel4.add(jComboBox1, gridBagConstraints);
 
         jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/negrita.png"))); // NOI18N
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 1;
@@ -362,6 +377,7 @@ public class Word extends javax.swing.JFrame {
         jPanel5.add(jButton30, gridBagConstraints);
 
         jButton31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/alignment.png"))); // NOI18N
+        buttonGroup1.add(jButton31);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 1;
@@ -461,6 +477,8 @@ public class Word extends javax.swing.JFrame {
         jLabel5.setText("Edicion");
 
         jSlider1.setMaximum(500);
+        jSlider1.setMinimum(10);
+        jSlider1.setValue(100);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -525,8 +543,15 @@ public class Word extends javax.swing.JFrame {
                     .addComponent(jSlider1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
-        jTabbedPane1.addTab("tab2", jPanel2);
-        jTabbedPane1.addTab("tab3", jTabbedPane2);
+        jTabbedPane1.addTab("Inicio", jPanel2);
+        jTabbedPane1.addTab("Insertar", jTabbedPane2);
+        jTabbedPane1.addTab("Diseño", jTabbedPane3);
+        jTabbedPane1.addTab("Disposicion", jTabbedPane4);
+        jTabbedPane1.addTab("Referencias", jTabbedPane5);
+        jTabbedPane1.addTab("Correspondencia", jTabbedPane6);
+        jTabbedPane1.addTab("Revisar", jTabbedPane7);
+        jTabbedPane1.addTab("Vista", jTabbedPane8);
+        jTabbedPane1.addTab("Ayuda", jTabbedPane9);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -541,6 +566,10 @@ public class Word extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton8ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -575,6 +604,7 @@ public class Word extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.ButtonGroup buttonGroup2;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
@@ -627,6 +657,13 @@ public class Word extends javax.swing.JFrame {
     private javax.swing.JSlider jSlider1;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTabbedPane jTabbedPane2;
+    private javax.swing.JTabbedPane jTabbedPane3;
+    private javax.swing.JTabbedPane jTabbedPane4;
+    private javax.swing.JTabbedPane jTabbedPane5;
+    private javax.swing.JTabbedPane jTabbedPane6;
+    private javax.swing.JTabbedPane jTabbedPane7;
+    private javax.swing.JTabbedPane jTabbedPane8;
+    private javax.swing.JTabbedPane jTabbedPane9;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JToolBar jToolBar1;
     // End of variables declaration//GEN-END:variables
